@@ -1,0 +1,22 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,html {
+    height: 100%;
+}
+
+.random-pane {
+  width: 100%;
+  height: 100%;
+}
+
+.grid-item {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  opacity: 0;
+}
